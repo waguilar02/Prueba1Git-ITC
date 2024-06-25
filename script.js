@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const message = document.getElementById('message');
 
     button.addEventListener('click', () => {
-        message.classList.toggle('hidden');
+        message.classList.toggle('hidden button');
     });
 });
